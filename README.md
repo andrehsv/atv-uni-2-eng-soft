@@ -2,7 +2,7 @@
 Este repositório pertence à atividade avaliativa da 2ª unidade da disciplina de Engenharia de Software.
 O sistema em questão trata-se de uma API (Applicattion Programming Interface) do sistema WeGuide, de guias e viagens.
 
-
+<h1 align="center">Backlog do produto</h1>
 <div align="center"><strong>Tabela 1 - Backlog do produto</strong>
   
 | ID | Funcionalidade | Priorização de Implementação |
@@ -19,3 +19,11 @@ O sistema em questão trata-se de uma API (Applicattion Programming Interface) d
 
 </div>
 
+<h1 align="center">Estórias de usuário e cenários BDD</h1>
+
+***ESTÓRIA 01*** <br>
+**Como um** órgão ou entidade de turismo,<br>
+**Eu quero** cadastrar-me na plataforma,<br>
+**Para que** possa inserir o Cadastur e garantir a confiabilidade dos profissionais em minha colaboração com a plataforma.
+
+<h3>Cenário #1: Cadastro de Órgão do Governo com Cadastur</h3>
