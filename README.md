@@ -27,9 +27,9 @@ Queremos ser a principal plataforma de ligação entre turistas e guias de turis
 
 </div>
 
-# Estórias de Usuário e Cenários BDD
+# Estórias|Histórias de Usuário e Cenários BDD
 
-## ESTÓRIA 01
+##  História de Usuário 1: Relação de Instituições com o Cadastro
 
 ### Como um órgão ou entidade de turismo,
 
