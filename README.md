@@ -2,6 +2,14 @@
 Este repositório pertence à atividade avaliativa da 2ª unidade da disciplina de Engenharia de Software.
 O sistema em questão trata-se de uma API (Applicattion Programming Interface) do sistema WeGuide, de guias e viagens.
 
+# StarTour: Transformando e Inovando Experiências Turísticas
+
+A StarTour é uma empresa inovadora que busca revolucionar o setor de turismo. Nosso objetivo é proporcionar uma experiência única, promovendo uma conexão mais profunda entre guias de turismo e turistas. Vamos além do simples turismo, oferecendo experiências culturais, gastronômicas, econômicas e sociais que permitem aos viajantes mergulharem verdadeiramente na essência de cada destino.
+
+## Nossa Missão
+
+Queremos ser a principal plataforma de ligação entre turistas e guias de turismo locais, simplificando e agilizando o processo de conexão em qualquer lugar onde a internet alcance. Isso significa que, onde quer que você esteja, encontrar o guia perfeito será rápido e eficiente graças à StarTour.
+
 <h1 align="center">Backlog do produto</h1>
 <div align="center"><strong>Tabela 1 - Backlog do produto</strong>
   
