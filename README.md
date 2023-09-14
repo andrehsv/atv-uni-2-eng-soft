@@ -27,3 +27,11 @@ O sistema em questão trata-se de uma API (Applicattion Programming Interface) d
 <strong>Para que</strong> possa inserir o Cadastur e garantir a confiabilidade dos profissionais em minha colaboração com a plataforma.
 
 <h4>Cenário #1: Cadastro de Órgão do Governo com Cadastur</h4>
+
+<strong>Dado que</strong> um órgão do governo deseja se cadastrar na plataforma,<br>
+ㅤㅤ​​ㅤㅤE este órgão possui o Cadastur em vigor,<br>
+<strong>Quando</strong> o órgão inicia o processo de cadastro,<br>
+<strong>Então</strong> o sistema permite que o órgão complete o cadastro com sucesso,<br>
+E a plataforma registra o órgão como um novo usuário,<br>
+E a confiabilidade do órgão é automaticamente confirmada devido à posse do Cadastur.
+
