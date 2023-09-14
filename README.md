@@ -29,9 +29,68 @@ O sistema em questão trata-se de uma API (Applicattion Programming Interface) d
 <h4>Cenário #1: Cadastro de Órgão do Governo com Cadastur</h4>
 
 <strong>Dado que</strong> um órgão do governo deseja se cadastrar na plataforma,<br>
-ㅤㅤ​​ㅤㅤE este órgão possui o Cadastur em vigor,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ㅤㅤ​​ㅤㅤ&nbsp;&nbsp;E este órgão possui o Cadastur em vigor,<br>
 <strong>Quando</strong> o órgão inicia o processo de cadastro,<br>
 <strong>Então</strong> o sistema permite que o órgão complete o cadastro com sucesso,<br>
-E a plataforma registra o órgão como um novo usuário,<br>
-E a confiabilidade do órgão é automaticamente confirmada devido à posse do Cadastur.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ㅤㅤ​​ㅤㅤ&nbsp;&nbsp;E a plataforma registra o órgão como um novo usuário,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ㅤㅤ​​ㅤㅤ&nbsp;&nbsp;E a confiabilidade do órgão é automaticamente confirmada devido à posse do Cadastur.
 
+<h4>Cenário #2: Cadastro de Entidade de Turismo sem Cadastur</h4>
+
+<strong>Dado que</strong> uma entidade de turismo deseja se cadastrar na plataforma,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ㅤㅤ​​ㅤㅤ&nbsp;&nbsp;E esta entidade não possui o Cadastur,<br>
+<strong>Quando</strong> a entidade inicia o processo de cadastro,<br>
+<strong>Então</strong> o sistema permite que a entidade complete o cadastro com sucesso,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ㅤㅤ​​ㅤㅤ&nbsp;&nbsp;E a plataforma registra a entidade como um novo usuário,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ㅤㅤ​​ㅤㅤ&nbsp;&nbsp;Mas a confiabilidade da entidade não é automaticamente confirmada devido à falta do Cadastur,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ㅤㅤ​​ㅤㅤ&nbsp;&nbsp;E o sistema exibe uma mensagem informando à entidade que ela deve providenciar o Cadastur para garantir a confiabilidade de seus profissionais.
+
+
+História de Usuário 2: Criação de Perfil de Serviço por Guias
+
+Funcionalidade: Criação de perfil de serviço
+
+Como um guia,
+Eu quero poder criar um perfil de serviço,
+Para que possa destacar minhas habilidades e qualificações, atraindo mais clientes interessados em meus serviços.
+
+Cenário #1: Guia Cria um Perfil de Serviço com Habilidades e Qualificações
+
+Dado que um guia deseja criar um perfil de serviço na plataforma,
+Quando o guia inicia o processo de criação de perfil,
+Então o sistema permite que o guia insira suas habilidades e qualificações,
+E o guia completa o perfil com sucesso,
+E o sistema registra o perfil de serviço do guia na plataforma.
+
+Cenário #2: Guia Incompleto Deixa Campos em Branco no Perfil de Serviço
+
+Dado que um guia deseja criar um perfil de serviço na plataforma,
+E o guia deixa campos obrigatórios em branco durante o processo de criação do perfil,
+Quando o guia tenta salvar o perfil incompleto,
+Então o sistema exibe uma mensagem de erro informando o guia sobre os campos em branco,
+E o sistema não permite que o perfil seja criado até que todos os campos obrigatórios sejam preenchidos.
+
+
+História de Usuário 3: Interação entre Guia e Turista
+
+Funcionalidade: Interação entre guias e clientes
+
+Como um turista interessado em um guia,
+Eu quero poder interagir com os guias na plataforma,
+Para que possamos discutir minhas necessidades específicas e encontrar o guia adequado para atender às minhas expectativas.
+
+Cenário #1: Cliente Inicia uma Conversa com um Guia
+
+Dado que um cliente está interessado em encontrar um guia na plataforma,
+E o cliente encontra um guia cujo perfil atende às suas necessidades,
+Quando o cliente inicia uma conversa com o guia,
+Então o sistema permite que o cliente envie uma mensagem ao guia,
+E o guia recebe a mensagem e pode responder à consulta do cliente.
+
+Cenário #2: Turista e Guia Discutem Detalhes do Serviço contratado
+
+Dado que um turista está planejando uma viagem e iniciou uma conversa com um guia,
+E o guia recebeu a mensagem do cliente,
+Quando o turista e o guia começam a discutir detalhes específicos do serviço, como itinerário, datas e preferências,
+Então o sistema permite que a conversa prossiga e ajuda a facilitar a comunicação entre o cliente e o guia
+E eles podem trocar informações relevantes para planejar a experiência de viagem.
