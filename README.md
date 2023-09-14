@@ -21,9 +21,9 @@ O sistema em questão trata-se de uma API (Applicattion Programming Interface) d
 
 <h1 align="center">Estórias de usuário e cenários BDD</h1>
 
-***ESTÓRIA 01*** <br>
-**Como um** órgão ou entidade de turismo,<br>
-**Eu quero** cadastrar-me na plataforma,<br>
-**Para que** possa inserir o Cadastur e garantir a confiabilidade dos profissionais em minha colaboração com a plataforma.
+<h3>ESTÓRIA 01</h3>
+<strong>Como um</strong> órgão ou entidade de turismo,<br>
+<strong>Eu quero</strong> cadastrar-me na plataforma,<br>
+<strong>Para que</strong> possa inserir o Cadastur e garantir a confiabilidade dos profissionais em minha colaboração com a plataforma.
 
-<h3>Cenário #1: Cadastro de Órgão do Governo com Cadastur</h3>
+<h4>Cenário #1: Cadastro de Órgão do Governo com Cadastur</h4>
