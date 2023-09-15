@@ -1,6 +1,6 @@
 # atv-uni-2-eng-soft
 Este repositório pertence à atividade avaliativa da 2ª unidade da disciplina de Engenharia de Software.
-O sistema em questão trata-se de uma API (Applicattion Programming Interface) do sistema WeGuide, de guias e viagens.
+O sistema em questão trata-se de uma API (Applicattion Programming Interface) do sistema StarTour, de guias e viagens.
 
 # StarTour: Transformando e Inovando Experiências Turísticas
 
