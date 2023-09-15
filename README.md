@@ -30,6 +30,7 @@ Queremos ser a principal plataforma de ligação entre turistas e guias de turis
 # Estórias/Histórias de Usuário e Cenários BDD
 
 ##  História de Usuário 1: Relação de Instituições com o Cadastro
+##  Prioridade: Média
 
 ### Como um órgão ou entidade de turismo,
 
@@ -68,6 +69,7 @@ Para que possa inserir o Cadastur e garantir a confiabilidade dos profissionais 
 - E o sistema exibe uma mensagem informando à entidade que ela deve providenciar o Cadastur para garantir a confiabilidade de seus profissionais.
 
 ## História de Usuário 2: Criação de Perfil de Serviço por Guias
+##  Prioridade: Alta
 
 ### Funcionalidade: Criação de perfil de serviço
 
@@ -102,6 +104,7 @@ Para que possa destacar minhas habilidades e qualificações, atraindo mais clie
 - E o sistema não permite que o perfil seja criado até que todos os campos obrigatórios sejam preenchidos.
 
 ## História de Usuário 3: Interação entre Guia e Turista
+##  Prioridade: Alta
 
 ### Funcionalidade: Interação entre guias e clientes
 
