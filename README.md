@@ -20,7 +20,7 @@ Queremos ser a principal plataforma de ligação entre turistas e guias de turis
 | 03 | Cadastro de orgão ou entidade de turismo no sistema | 1,2 |
 | 04 | Criação de perfil de serviço por guia | 2 |
 | 05 | Interação entre guia e cliente | 3 |
-| 06 | Envio de mensagem do cliente ao guia | 3 |
+| 06 | Envio de mensagem do cliente aos guias | 3 |
 | 07 | Troca de mensagens entre o cliente e o guia | 3,4 |
 | 08 | Exibição de imagens de pontos turísticos na tela inicial | 4 |
 | 09 | Seleção de guia com base no ponto turístico pelo cliente | 4 |
